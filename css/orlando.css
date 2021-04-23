@@ -1,0 +1,423 @@
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+    font-size: 1em;
+}
+header {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(91, 41, 194, .85);
+    z-index: 2;
+    position: relative;
+}
+header .container{
+    position: relative;
+}
+header .header-black {
+    background-color: #000;
+    height: 40px;
+}
+header .header-black li {
+    background-image: url("../img/clubs.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 4px 6px;
+    position: static;
+}
+header .header-black li.club-01 {
+    background-position: 0px 0px;
+}
+header .header-black li.club-02 {
+    background-position: -48px 0px;
+}
+header .header-black li.club-03 {
+    background-position: -96px 0px;
+}
+header .header-black li.club-04 {
+    background-position: -139px 0px;
+}
+header .header-black li.club-05 {
+    background-position: -192px 0px;
+}
+header .header-black li.club-06 {
+    background-position: -240px 0px;
+}
+header .header-black li.club-07 {
+    background-position: -288px 0px;
+}
+header .header-black li.club-08 {
+    background-position: -336px 0px;
+}
+header .header-black li.club-09 {
+    background-position: -380px 0px;
+}
+header .header-black li.club-10 {
+    background-position: -429px 0px;
+}
+header .header-black li.club-11 {
+    background-position: -480px 0px;
+}
+header .header-black li.club-12 {
+    background-position: -528px 0px;
+}
+header .header-black li.club-13 {
+    background-position: -576px 0px;
+}
+header .header-black li.club-14 {
+    background-position: -624px 0px;
+}
+header .header-black li.club-15 {
+    background-position: -672px 0px;
+}
+header .header-black li.club-16 {
+    background-position: -720px 0px;
+}
+header .header-black li.club-17 {
+    background-position: -768px 0px;
+}
+header .header-black li.club-18 {
+    background-position: -808px 0px;
+}
+header .header-black li.club-19 {
+    background-position: -854px 0px;
+}
+header .header-black li.club-20 {
+    background-position: -902px 0px;
+}
+header .header-black li a {
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+header #logotipo {
+    position: absolute;
+    top: 19px;
+    z-index: 3;
+}
+
+#menu {
+    margin-top: 14px;
+    margin-right: 7px;
+}
+#menu li {
+    display: inline-block;
+    font-family: "OpenSans-Regular";
+}
+#menu li.search {
+    width: 182px;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 1s;
+}
+#menu li.search.ativo {
+    width: 300px;
+}
+#menu li.search input {
+    background-color: #5c2d90;
+    color: #fff;
+    border: none;
+    height: 30px;
+    line-height: 30px; 
+}
+#menu li.search.ativo input {
+    width: 300px;
+}
+#menu li.search ::-webkit-input-placeholder {
+    color: #fff;
+}
+#menu li.search button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 9px;
+    top: 7px;
+}
+#menu li.search button i {
+    font-size: 14px;
+    color: rgba(255, 255, 255, .5);
+}
+#menu li a {
+    color: #FFF;
+    font-size: 16px;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+#menu li.search .input-group {
+    top: 8px;
+}
+#banner {
+    width: 100%;
+    height: 728px;
+    position: relative;
+    background: url("../img/banner.jpg") no-repeat;
+    background-position: 0px -100px;
+    top: -110px;
+}
+#banner h1 {
+    transition:.5s;
+    position: absolute;
+    top: 300px;
+    margin-left: 90px;
+    font-size: 92px;
+    color: #FFF;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
+    font-family: 'OpenSans-Light';
+}
+#banner h1.efeito {
+    color: red;
+    font-size: 12em;
+}
+#banner h1 small {
+    font-size: 32px;
+    display: block;
+    color: #FFF;
+    font-weight: bold;
+}
+#news{
+    position: relative;
+    top: -140px;
+}
+#news h2{
+    color: #5e2799;
+    font-family: 'OpenSans-Light';
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#news hr{
+    border: #fde192 solid 6px;
+    width: 200px;
+    margin: 0 auto;
+}
+#news .thumbnails{
+    margin-top: 35px;
+}
+#news .thumbnails h3{
+    color: #5e2991;
+    font-size: 18px;
+    font-family: 'Open_Sans-Regular';
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 0px 26px;
+    display: inline-block;
+}
+#news .thumbnails time{
+    color: #a7a7a7;
+    font-size: 18px;
+    font-family: 'Open_Sans-Regular';
+    font-weight: bold;
+}
+#news .thumbnails .item-inner{
+    padding: 10px;
+}
+#news .thumbnails .item-inner img{
+    width: 100%;
+}
+#estatisticas{
+    background-color: #5e299a;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+#estatisticas p{
+    color: #fde092;
+    text-transform: uppercase;
+    font-family: 'Open_Sans-Light';
+    font-size: 64px;
+    margin-top: 35px;
+}
+#estatisticas p small{
+    color: #FFF;
+    font-size: 24px;
+    display: block;
+}
+#call-to-action{
+    text-align: center;
+    margin-top: 45px;
+}
+#call-to-action h2{
+    color: #5e2799;
+    font-family: 'OpenSans-Light';
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#call-to-action hr{
+    border: #fde192 solid 6px;
+    width: 200px;
+    margin: 0 auto;
+}
+#call-to-action p{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: #656565;
+}
+#call-to-action .btn{
+    min-width: 64px;
+    height: 40px;
+    border-radius: 0;
+    line-height: 29px;
+    width: 120px;
+}
+#call-to-action .btn-roxo{
+    color: #fff;
+    background-color: #5e299a;
+    border-color: #5e299a;
+}
+#call-to-action .btn-amarelo{
+    color: #000;
+    background-color: #fde192;
+    border-color: #fde192;
+}
+#call-to-action .row-max-400{
+    margin: 0 auto;
+    max-width: 400px;
+}
+footer{
+    margin-top: 110px;
+}
+footer .row{
+    width: 100%;
+    margin: 0 0;
+}
+footer .row-cinza-claro{
+    height: 240px;
+    background-color: #171f26;
+}
+footer .row-cinza-escuro{
+    height: 60px;
+    background-color: #11171d;
+    border-top: #242d37 1px solid;
+}
+footer .row p{
+    line-height: 55px;
+    margin-bottom: 0px;
+}
+footer .text-cinza{
+    font-family: 'OpenSans';
+    color: #666;
+    font-size: 14px;
+}
+footer .text-roxo{
+    font-family: 'OpenSans';
+    color: #623291;
+    font-weight: bold;
+    font-size: 14px;
+}
+footer .logotipo{
+    margin-top: 28px;
+}
+footer .col-popular-posts,
+footer .col-links,
+footer .col-get-in-touch{
+    margin-top: 40px;
+}
+footer .row-cols h4{
+    font-family: 'OpenSans';
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 17px;
+    border-bottom: #242d37 1px solid;
+}
+footer .row-cols h5,
+.col-get-in-touch a{
+    color: #666;
+    font-family: Arial;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+footer .row-cols time{
+    color: #fde092;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+footer .col-links li{
+    color: #fff;
+    font-family: Arial;
+    font-size: 14px;
+}
+footer .col-links i{
+    margin-right: 5px;
+    font-size: 15px;
+}
+footer .col-get-in-touch address{
+    color: #666;
+    font-family: Arial;
+    font-size: 14px;
+    margin-bottom: 0px;
+    position: relative;
+}
+footer .col-get-in-touch address span{
+    display: inline-block;
+}
+footer .col-get-in-touch address i{
+    position: relative;
+    top: -14px;
+}
+footer .col-get-in-touch i {
+    color: #9b9b9b;
+    font-size: 20px;
+    margin: 0px 8px;
+}
+footer .col-get-in-touch p{
+    line-height: 20px;
+}
+footer .list-socials{
+    margin-top: 4px;
+}
+footer .list-socials li{
+    display: inline-block;
+}
+footer .list-socials a{
+    display: block;
+    border: #9b9b9b 1px solid;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 14px;
+    margin: 2px 2px;
+}
+footer .list-socials i{
+    font-size: 16px;
+    margin: 5px 7px;
+}
+/* VIDEOS.HTML */
+video {
+    width: 60%;
+}
+/* responsive */
+#btn-bars, #btn-search,#btn-news-prev,#btn-news-next{
+    display: none;
+}
+.page-up {
+    display: none!important;
+}
+
+/* Shop */
+.text-arial-cinza{
+    font-family: Arial;
+    font-size: 12px;
+    color: #666;
+}
+
+#destaque-produtos-container{
+    position: relative;
+}
+#destaque-produtos .col-imagem{
+    text-align: center;
+}
+#destaque-produtos .col-descricao h2{
+    font-family: Arial;
+    font-size: 20px;
+    color: #666;
+}
+#destaque-produtos .col-descricao .box-valor{
+    width: 100%;
+    position: relative;
+}
